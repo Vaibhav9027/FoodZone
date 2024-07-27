@@ -1,0 +1,71 @@
+npm run server
+
+
+ "bcrypt": "^5.1.1",encrpt and store data in db
+    "body-parser": "^1.20.2",to parse data from user
+    "cors": "^2.8.5",give permission to connect frontened with backend
+    "dotenv": "^16.4.5",to use env variable
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",authentication system
+    "mongoose": "^8.5.1",
+    "multer": "^1.4.5-lts.1",multi image syystem
+    "nodemon": "^3.1.4",
+    "stripe": "^16.2.0",payment gateway
+    "validator": "^13.12.0"pw or email id is valid or not
+
+    get- request the data from server
+    post- to send data on server which will be processed and we get a response
+    
+const foodSchema =new mongoose.Schema({
+    name: {type:String,required:true}
+})
+required:true no data without name will be accepted
+
+
+
+write EPROTO 8974464:error:100000f7:SSL routines:OPENSSL_internal:WRONG_VERSION_NUMBER:..\..\third_party\boringssl\src\ssl\tls_record.cc:231:
+
+solution: The issue was that I was trying to POST to https when that API actually only supports HTTP. Just leave this as a note for other folks who might run into the same issue.
+
+
+
+admin folder we run npm create vite@latest//creating admin panel
+
+ater creating the login and register functionlity to add them in frontend
+keep the backend server running
+run the frontened server npm run dev
+frontened-src-components-loginpopup.jsx-> cereating state variable
+attaching onchange handler 
+before
+          {currState==="Login"?<></>:<input type='text' placeholder='Your Name' required/>}
+
+
+
+----------------------------------
+  before
+      <button>{   currState==="Sign Up"?"Create account":"Login"}</button>
+        <div className="login-popup-condition">
+          <input type='checkbox' required/>
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------
+after
+{currState==="Login"?<></>:<input name='name' onChange={onChangeHandler} value={data.name} type='text' placeholder='Your Name' required/>}
+          {/* <input type='text' placeholder='Your Name' required/> */}
+          <input name='email' onChange={onChangeHandler} value={data.email} type='email' placeholder='Your Email' required/>
+          <input name='password' onChange={onChangeHandler} value={data.password} type='password' placeholder='password' required/>
+
+
+
+<!-- after fetching dta or foodlist from backened or database -- we can actual check that by right click on image ->open image in new tab and checking address --- due to this code in foodItem.jsx src={url + "/images/"+ image} -->
+<!-- to do thid run backened also along with frontend -->
