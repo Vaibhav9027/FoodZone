@@ -45,6 +45,8 @@ Removing Items: Admins can remove items from the menu.
 ## Store Context
 Tomato uses the Context API to manage the state of the application, ensuring efficient state management across different components. The StoreContext provides a centralized store for managing the cart, user authentication state, and other global states.
 
+
+
 ## Screenshots
 
 ![image](https://github.com/user-attachments/assets/6ec80f33-a3f5-4d63-a025-54f525a42d7c)
@@ -53,7 +55,7 @@ Tomato uses the Context API to manage the state of the application, ensuring eff
 ![image](https://github.com/user-attachments/assets/db0fb16f-dda1-4c5a-ae4c-5fe8df05d06d)
 
 
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 ### Filtering
